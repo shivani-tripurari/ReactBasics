@@ -1,0 +1,28 @@
+{
+  "name": "reactbasics",
+  "version": "1.0.0",
+  "description": "This is a repo to understand React under the hood",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivani-tripurari/ReactBasics.git"
+  },
+  "author": "Shivani Tripurari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivani-tripurari/ReactBasics/issues"
+  },
+  "homepage": "https://github.com/shivani-tripurari/ReactBasics#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist" : [
+    "last 2 versions"
+  ]
+}

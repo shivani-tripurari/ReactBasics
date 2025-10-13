@@ -1,3 +1,6 @@
+        import React from "react";
+        import {createRoot} from "react-dom/client"
+
         //creating a h1 tag using React
         //what are we passing to createElement ?
         //1. element name / tag name
@@ -9,10 +12,10 @@
         //React.createElement is just a javascript object
 
         //creating a root element 
-        const root = ReactDOM.createRoot(document.getElementById("root"));
+        const root = createRoot(document.getElementById("root"));
 
         //adding the heading to root
-        root.render(heading);
+        // root.render(heading);
         
         //render function converts the js object into HTML element that Browser understands
         
