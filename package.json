@@ -4,7 +4,7 @@
   "description": "This is a repo to understand React under the hood",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html",
+    "start": "parcel src/index.html",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -18,13 +18,17 @@
   },
   "homepage": "https://github.com/shivani-tripurari/ReactBasics#readme",
   "devDependencies": {
-    "parcel": "^2.16.0"
+    "@tailwindcss/postcss": "^4.1.15",
+    "autoprefixer": "^10.4.21",
+    "parcel": "^2.16.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.15"
   },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
-  "browserslist" : [
+  "browserslist": [
     "last 2 versions"
   ]
 }
